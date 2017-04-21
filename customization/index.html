@@ -90,6 +90,8 @@
                 
                     <li><a class="toctree-l4" href="#header">Header</a></li>
                 
+                    <li><a class="toctree-l4" href="#mega-menu">Mega Menu</a></li>
+                
                     <li><a class="toctree-l4" href="#main-slideshow-carousel">Main Slideshow / Carousel</a></li>
                 
                     <li><a class="toctree-l4" href="#3-banners">3 Banners</a></li>
@@ -108,6 +110,18 @@
                 
                     <li><a class="toctree-l4" href="#laparis-ii-new-featured-bestselling-columns">LaParis II - New / Featured / Bestselling Columns</a></li>
                 
+                    <li><a class="toctree-l4" href="#laparis-iii-first-banner-group">LaParis III - First Banner Group</a></li>
+                
+                    <li><a class="toctree-l4" href="#laparis-iii-second-banner-group">LaParis III - Second Banner Group</a></li>
+                
+                    <li><a class="toctree-l4" href="#laparis-iii-third-banner-group">LaParis III - Third Banner Group</a></li>
+                
+                    <li><a class="toctree-l4" href="#laparis-iv-introduction-text">LaParis IV - Introduction Text</a></li>
+                
+                    <li><a class="toctree-l4" href="#laparis-iv-5-banner-groups">LaParis IV - 5 Banner Groups</a></li>
+                
+                    <li><a class="toctree-l4" href="#laparis-iv-video-block">LaParis IV - Video Block</a></li>
+                
                     <li><a class="toctree-l4" href="#footer-newsletter">Footer - Newsletter</a></li>
                 
                     <li><a class="toctree-l4" href="#footer-links">Footer - Links</a></li>
@@ -119,6 +133,14 @@
                     <li><a class="toctree-l4" href="#copyright-links">Copyright Links</a></li>
                 
                     <li><a class="toctree-l4" href="#credit-links">Credit Links</a></li>
+                
+                    <li><a class="toctree-l4" href="#assign-different-product-layout-to-a-specific-product-page">Assign different product layout to a specific product page</a></li>
+                
+                    <li><a class="toctree-l4" href="#assign-different-category-layout-to-a-specific-category-page">Assign different category layout to a specific category page</a></li>
+                
+                    <li><a class="toctree-l4" href="#show-custom-product-labels">Show custom product labels</a></li>
+                
+                    <li><a class="toctree-l4" href="#show-color-swatches-on-product-card">Show color swatches on product card:</a></li>
                 
                     <li><a class="toctree-l4" href="#mix-contents-from-other-theme-styles">Mix contents from other theme styles</a></li>
                 
@@ -217,6 +239,21 @@
 <h3 id="colors-customization_1">Colors Customization<a class="headerlink" href="#colors-customization_1" title="Permanent link">&para;</a></h3>
 <p>To customize colors of the header section, look into the options showing below in the Theme Editor:</p>
 <p><img alt="Theme editor header" src="../img/theme-editor-header.png" /></p>
+<h2 id="mega-menu">Mega Menu<a class="headerlink" href="#mega-menu" title="Permanent link">&para;</a></h2>
+<p><img alt="Mega Menu" src="../img/home1-megamenu.png" /></p>
+<p>Images or labels appear on the mega menu can be edited in the language file <code>en.json</code>:</p>
+<p><img alt="Edit language for mega menu" src="../img/edit-language-megamenu.png" /></p>
+<p>For example if the current menu <strong>Shop By</strong> has category ID = <code>23</code>.</p>
+<ul>
+<li><code>"show_cat_image_23": "yes"</code>: specify an image will show on this menu.</li>
+<li><code>cat_image_23</code>: is the image URL.</li>
+</ul>
+<p>If you want to show a label beside a menu items like above image, for example the menu item <strong>Season</strong> has category ID = <code>28</code>:</p>
+<ul>
+<li><code>"show_item_label_28": "yes"</code>: specify a label will show beside this menu item.</li>
+<li><code>"item_label_28"</code>: is the label text.</li>
+</ul>
+<p>You can add more for other items as you want.</p>
 <h2 id="main-slideshow-carousel">Main Slideshow / Carousel<a class="headerlink" href="#main-slideshow-carousel" title="Permanent link">&para;</a></h2>
 <h3 id="edit-the-slideshow">Edit the slideshow<a class="headerlink" href="#edit-the-slideshow" title="Permanent link">&para;</a></h3>
 <p>Edit the slideshow in admin page &gt; <strong>Storefront Design</strong> &gt; <strong>Design Options</strong>:</p>
@@ -273,6 +310,27 @@
 }
 </code></pre>
 
+<h3 id="show-products-grid-with-first-product-show-bigger">Show products grid with first product show bigger<a class="headerlink" href="#show-products-grid-with-first-product-show-bigger" title="Permanent link">&para;</a></h3>
+<p>In theme style LaParis III, the homepage shows new products like below:</p>
+<p><img alt="Home 3 - New Products" src="../img/home3-new-products.jpg" /></p>
+<p>This can be accomplished by the code in homepage template file <code>templates/components/emthemes-modez/home/laparis3.html</code>:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;new_products&quot; style=&quot;laparis1&quot;}}
+</code></pre>
+
+<p>Note the difference is <code>style="laparis1"</code>.</p>
+<h3 id="show-products-carousel-fullwidth-and-having-subheading">Show products carousel fullwidth and having subheading<a class="headerlink" href="#show-products-carousel-fullwidth-and-having-subheading" title="Permanent link">&para;</a></h3>
+<p>In theme style LaParis IV, the homepage shows featured products like below:</p>
+<p><img alt="Home 4 - products carousel" src="../img/home4-products-carousel.jpg" /></p>
+<p>This can be accomplished by the code in homepage template file <code>templates/components/emthemes-modez/home/laparis4.html</code>:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;featured_products&quot; style=&quot;laparis4&quot; show_subheading=true}}
+</code></pre>
+
+<ul>
+<li><code>style="laparis4"</code> indicates that products carousel should show full width.</li>
+<li><code>show_subheading=true</code> indicates that the products block should have subheading.</li>
+</ul>
+<p>Subheading can be edited in the language file <code>en.json</code>:</p>
+<p><img alt="Edit language file for subheading" src="../img/edit-language-subheading.png" /></p>
 <h2 id="recent-blog-posts">Recent Blog Posts<a class="headerlink" href="#recent-blog-posts" title="Permanent link">&para;</a></h2>
 <p><img alt="Recent blog posts" src="../img/home1-blog.jpg" /></p>
 <p>This block show the most recent blog posts.</p>
@@ -368,6 +426,80 @@
 <p>You can configure number of products to display in <strong>Theme Editor</strong> &gt; <strong>Homepage</strong> section:</p>
 <p><img alt="Theme editor products" src="../img/theme-editor-homepage-products-options.png" /></p>
 <p>You can change the heading text of each column in the language files, find and edit keys <code>products</code> &gt; <code>new</code>, <code>products</code> &gt; <code>featured</code>, <code>products</code> &gt; <code>top</code>.</p>
+<h2 id="laparis-iii-first-banner-group">LaParis III - First Banner Group<a class="headerlink" href="#laparis-iii-first-banner-group" title="Permanent link">&para;</a></h2>
+<p><img alt="Home 3 - Banner group 1" src="../img/home3-banner1.jpg" /></p>
+<p>To edit 2 banner, edit the language file <code>en.json</code>:</p>
+<p><img alt="Edit language for banner LaParis 2" src="../img/edit-language-banner-laparis2.png" /></p>
+<p>Group <code>laparis2_1</code> is coresponding to the block:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis2_1&quot;}}
+</code></pre>
+
+<p>In the homepage template file <code>templates/components/emthemes-modez/home/laparis3.html</code>.</p>
+<p>You can add up to 3 of this banner group.</p>
+<h2 id="laparis-iii-second-banner-group">LaParis III - Second Banner Group<a class="headerlink" href="#laparis-iii-second-banner-group" title="Permanent link">&para;</a></h2>
+<p><img alt="Home 3 - Banner group 2" src="../img/home3-banner2.jpg" /></p>
+<p>To edit 3 banner, edit the language file <code>en.json</code>:</p>
+<p><img alt="Edit language for banner LaParis 3" src="../img/edit-language-banner-laparis3.png" /></p>
+<p>Group <code>laparis3_1</code> is coresponding to the block:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis3_1&quot;}}
+</code></pre>
+
+<p>In the homepage template file <code>templates/components/emthemes-modez/home/laparis3.html</code>.</p>
+<p>You can add up to 3 of this banner group.</p>
+<h2 id="laparis-iii-third-banner-group">LaParis III - Third Banner Group<a class="headerlink" href="#laparis-iii-third-banner-group" title="Permanent link">&para;</a></h2>
+<p><img alt="Home 3 - Banner group 3" src="../img/home3-banner3.jpg" /></p>
+<p>To edit this banner, edit the language file <code>en.json</code>:</p>
+<p><img alt="Edit language for banner LaParis 4" src="../img/edit-language-banner-laparis4.png" /></p>
+<p>Group <code>laparis4_1</code> is coresponding to the block:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis4_1&quot;}}
+</code></pre>
+
+<p>In the homepage template file <code>templates/components/emthemes-modez/home/laparis3.html</code>.</p>
+<p>You can add up to 3 of this banner group.</p>
+<h2 id="laparis-iv-introduction-text">LaParis IV - Introduction Text<a class="headerlink" href="#laparis-iv-introduction-text" title="Permanent link">&para;</a></h2>
+<p>In theme style LaParis IV:</p>
+<p><img alt="Home 4 - Intro text" src="../img/home4-intro-text.png" /></p>
+<p>This text block can be edited in in the language file <code>en.json</code> as showing below:</p>
+<p><img alt="Edit language for text block" src="../img/edit-language-textblock.png" /></p>
+<p>You can find the code output this block in homepage template file <code>templates/components/emthemes-modez/home/laparis4.html</code>:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;text_1&quot;}}
+</code></pre>
+
+<p>You can add up to 3 instance of this block:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;text_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;text_2&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;text_3&quot;}}
+</code></pre>
+
+<p>Coresponding to 3 groups in the language file: <code>text_1</code>, <code>text_2</code> and <code>text_3</code>.</p>
+<h2 id="laparis-iv-5-banner-groups">LaParis IV - 5 Banner Groups<a class="headerlink" href="#laparis-iv-5-banner-groups" title="Permanent link">&para;</a></h2>
+<p><img alt="Home 4 - Banner 1" src="../img/home4-banner1.jpg" />
+<img alt="Home 4 - Banner 2" src="../img/home4-banner2.jpg" />
+<img alt="Home 4 - Banner 3" src="../img/home4-banner3.jpg" />
+<img alt="Home 4 - Banner 4" src="../img/home4-banner4.jpg" />
+<img alt="Home 4 - Banner 5" src="../img/home4-banner5.jpg" /></p>
+<p>5 banner groups can be edited in the language file <code>en.json</code> as showing below:</p>
+<p><img alt="Edit language for banner LaParis 5" src="../img/edit-language-banner-laparis5.png" /></p>
+<p><code>laparis5_1</code> to <code>laparis5_5</code> corresponding to first banner group to 5th banner group.</p>
+<p>You can find the code output these banner groups in the homepage template file <code>templates/components/emthemes-modez/home/laparis4.html</code>:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis5_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis5_2&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis5_3&quot; style=&quot;alt&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis5_4&quot;}}
+...
+{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis5_5&quot;}}
+</code></pre>
+
+<p><code>style="alt"</code> indicates 3rd banner group has different sttyle (the first banner has text align right).</p>
+<h2 id="laparis-iv-video-block">LaParis IV - Video Block<a class="headerlink" href="#laparis-iv-video-block" title="Permanent link">&para;</a></h2>
+<p>Video block showing on homapge of theme style LaParis IV:</p>
+<p><img alt="Home 4 - Video Block" src="../img/home4-videoblock.jpg" /></p>
+<p>This block can be edited in in the language file <code>en.json</code> as showing below:</p>
+<p><img alt="Edit language for video block" src="../img/edit-language-videoblock.png" /></p>
+<p>You can find the code output this block in homepage template file <code>templates/components/emthemes-modez/home/laparis4.html</code>:</p>
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;video_1&quot;}}
+</code></pre>
+
 <h2 id="footer-newsletter">Footer - Newsletter<a class="headerlink" href="#footer-newsletter" title="Permanent link">&para;</a></h2>
 <p><img alt="Newsletter" src="../img/home1-newsletter.png" /></p>
 <h3 id="change-text">Change text<a class="headerlink" href="#change-text" title="Permanent link">&para;</a></h3>
@@ -407,6 +539,33 @@
 <h2 id="credit-links">Credit Links<a class="headerlink" href="#credit-links" title="Permanent link">&para;</a></h2>
 <p><img alt="Theme editor credit links" src="../img/theme-editor-credits.png" /></p>
 <p>To show/hide the credit links, go to Theme Editor &gt; <strong>Footer</strong> section, tick or untick the checkboxes as showing above.</p>
+<h2 id="assign-different-product-layout-to-a-specific-product-page">Assign different product layout to a specific product page<a class="headerlink" href="#assign-different-product-layout-to-a-specific-product-page" title="Permanent link">&para;</a></h2>
+<p>Theme has 2 product layouts: <strong>default</strong> and <strong>Fullwith with Lightbox</strong>.</p>
+<p>Product layout fullwidth:</p>
+<p><img alt="Product layout fullwidth" src="../img/product-layout-fullwidth.jpg" /></p>
+<p>To assign a product layout, edit your product in the admin panel. In tab <strong>Order Details</strong>, choose <strong>Template Layout File</strong> with the layout out want:</p>
+<p><img alt="Assign product layout" src="../img/assign-product-layout.png" /></p>
+<h2 id="assign-different-category-layout-to-a-specific-category-page">Assign different category layout to a specific category page<a class="headerlink" href="#assign-different-category-layout-to-a-specific-category-page" title="Permanent link">&para;</a></h2>
+<p>Theme has 2 category layout: <strong>default</strong> and <strong>Fullwidth</strong>.</p>
+<p>Category layout fullwidth:</p>
+<p><img alt="Category layout fullwidth" src="../img/category-layout-fullwidth.jpg" /></p>
+<p>To assign a category layout, edit your category in the admin panel. Choose <strong>Template Layout File</strong> with the layout out want:</p>
+<p><img alt="Assign category layout" src="../img/assign-category-layout.png" /></p>
+<h2 id="show-custom-product-labels">Show custom product labels<a class="headerlink" href="#show-custom-product-labels" title="Permanent link">&para;</a></h2>
+<p><img alt="Product labels" src="../img/product-labels.jpg" /></p>
+<p>Turn on displaying product labels in the <strong>Theme Editor</strong> &gt; <strong>Products</strong> section, tick on the checkbox <strong>Show custom label using custom field 'card_label'</strong> and choose <strong>Display Product Sale Badges</strong> as <strong>Top Left</strong>.</p>
+<p><img alt="Theme editor products options" src="../img/theme-editor-products-show-options.png" /></p>
+<p><img alt="Theme editor product sale badges" src="../img/theme-editor-product-sale-badges.png" /></p>
+<p>Edit your product in the admin panel to add custom label:</p>
+<p><img alt="Edit product custom fields" src="../img/edit-product-custom-fields.png" /></p>
+<p>Add a custom label named <code>card_label</code> and enter label text in the value input box.</p>
+<h2 id="show-color-swatches-on-product-card">Show color swatches on product card:<a class="headerlink" href="#show-color-swatches-on-product-card" title="Permanent link">&para;</a></h2>
+<p><img alt="Color swatches on product card" src="../img/product-card-color-swatches.png" /></p>
+<p>To display color watches on product card, open <strong>Theme Editor</strong> &gt; <strong>Products</strong> section, tick on the checkbox <strong>Show color swatches using custom field 'card_color'</strong>.</p>
+<p><img alt="Theme editor products options" src="../img/theme-editor-products-show-options.png" /></p>
+<p>Edit your product in the admin panel to add custom label:</p>
+<p><img alt="Edit product custom fields" src="../img/edit-product-custom-fields.png" /></p>
+<p>Add a custom label named <code>card_color</code> and enter color hex code in the value input box seperator by commas.</p>
 <h2 id="mix-contents-from-other-theme-styles">Mix contents from other theme styles<a class="headerlink" href="#mix-contents-from-other-theme-styles" title="Permanent link">&para;</a></h2>
 <p>For example, if you want to use theme <strong>default</strong> style as the main theme, but also want to display other content blocks from <strong>LaParis II</strong> style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.</p>
 <p>Let open folder <code>templates</code> &gt; <code>components</code> &gt; <code>emthemes-modez</code> &gt; <code>home</code> in the template files editor:</p>
