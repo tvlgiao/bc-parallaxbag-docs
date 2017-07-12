@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/index.html", 
-            "text": "User Guide - BigCommerce Theme SarahStore\n\n\nTheme Version: 1.0.6 (2017-04-21)\n\n\nTheme designed and developed by \npapathemes\n. Contact for support via email \n.\n\n\nUser Guide Contents\n\n\n\n\nInstall the theme\n\n\nQuick Start Guide\n\n\nCustomization\n\n\nTheme Settings\n\n\nFAQs\n\n\nHelp \n Support", 
+            "text": "User Guide - BigCommerce Theme ParallaxBag\n\n\nTheme Version: 1.0.0 (2017-07-07)\n\n\nTheme designed and developed by \npapathemes\n. Contact for support via email \n.\n\n\nUser Guide Contents\n\n\n\n\nInstall the theme\n\n\nQuick Start Guide\n\n\nCustomization\n\n\nTheme Settings\n\n\nFAQs\n\n\nHelp \n Support", 
             "title": "Home"
         }, 
         {
-            "location": "/index.html#user-guide-bigcommerce-theme-sarahstore", 
-            "text": "Theme Version: 1.0.6 (2017-04-21)  Theme designed and developed by  papathemes . Contact for support via email  .", 
-            "title": "User Guide - BigCommerce Theme SarahStore"
+            "location": "/index.html#user-guide-bigcommerce-theme-parallaxbag", 
+            "text": "Theme Version: 1.0.0 (2017-07-07)  Theme designed and developed by  papathemes . Contact for support via email  .", 
+            "title": "User Guide - BigCommerce Theme ParallaxBag"
         }, 
         {
             "location": "/index.html#user-guide-contents", 
@@ -17,12 +17,12 @@
         }, 
         {
             "location": "/installation/index.html", 
-            "text": "Theme Installation\n\n\n\n\nLogin to your BigCommerce store's admin page. \n\n\nGo to \nStorefront Design\n \n \nMy Themes\n. \n\n\nClick button \nUpload Theme\n. On the popup, click button \nSelect theme from your computer\n. \n\n\nChoose the zip file \nLaParis-x.x.x.zip\n to start installing the theme.\n\n\nWaiting for the uploading completed.\n\n\n\n\nWhen a new theme appears, click on the button \nApply Theme\n as showing below:\n\n\n\n\nThen choose a style you want to use:\n\n\n\n\nRefresh your store's front page you should see the theme installed successfully.", 
+            "text": "Theme Installation\n\n\n\n\nLogin to your BigCommerce store's admin page. \n\n\nGo to \nStorefront Design\n \n \nMy Themes\n. \n\n\nClick button \nUpload Theme\n. On the popup, click button \nSelect theme from your computer\n. \n\n\nChoose the zip file \nParallaxBag-x.x.x.zip\n to start installing the theme.\n\n\nWaiting for the uploading completed.\n\n\n\n\nWhen a new theme appears, click on the button \nApply Theme\n as showing below:\n\n\n\n\nThen choose a style you want to use:\n\n\n\n\nRefresh your store's front page you should see the theme installed successfully.", 
             "title": "Install the theme"
         }, 
         {
             "location": "/installation/index.html#theme-installation", 
-            "text": "Login to your BigCommerce store's admin page.   Go to  Storefront Design     My Themes .   Click button  Upload Theme . On the popup, click button  Select theme from your computer .   Choose the zip file  LaParis-x.x.x.zip  to start installing the theme.  Waiting for the uploading completed.   When a new theme appears, click on the button  Apply Theme  as showing below:   Then choose a style you want to use:   Refresh your store's front page you should see the theme installed successfully.", 
+            "text": "Login to your BigCommerce store's admin page.   Go to  Storefront Design     My Themes .   Click button  Upload Theme . On the popup, click button  Select theme from your computer .   Choose the zip file  ParallaxBag-x.x.x.zip  to start installing the theme.  Waiting for the uploading completed.   When a new theme appears, click on the button  Apply Theme  as showing below:   Then choose a style you want to use:   Refresh your store's front page you should see the theme installed successfully.", 
             "title": "Theme Installation"
         }, 
         {
@@ -67,7 +67,7 @@
         }, 
         {
             "location": "/customization/index.html", 
-            "text": "Customization\n\n\nThis page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.\n\n\n\n\nTop Banner\n\n\n\n\nThe top banner can be showed / edited in admin page \n \nMarketing\n \n \nBanners\n. When you add / edit remember to choose \nLocation\n is \nTop of Page\n.\n\n\nColors Customization\n\n\nTo customize colors of this section, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nCustomize\n of the current theme to open the Theme Editor. \n\n\n\n\nLook into the options showing below:\n\n\n\n\nHeader\n\n\nHeader Styles\n\n\nThis theme support 3 different header styles:\n- Logo at left\n- Logo at right\n- Logo at center\n\n\n\n\n\n\n\n\nTo configure, open the \nTheme Editor\n, scroll down to section \nLogo\n, click to expand the logo options. Choose a certain option of \nLogo position\n, then click \nRefresh\n button appear after.\n\n\n\n\nEdit 3 info text blocks\n\n\n\n\nShow or hide these text blocks in Theme Editor \n \nHeader\n section as showing below: \n\n\n\nEdit content in the language file, from admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\nFrom the left navigation, click to edit the language file (e.i \nen.json\n):\n\n\n\n\nEdit the text as figured above.\n\n\nColors Customization\n\n\nTo customize colors of the header section, look into the options showing below in the Theme Editor:\n\n\n\n\nMega Menu\n\n\n\n\nImages or labels appear on the mega menu can be edited in the language file \nen.json\n:\n\n\n\n\nFor example if the current menu \nShop By\n has category ID = \n23\n.\n\n\n\n\n\"show_cat_image_23\": \"yes\"\n: specify an image will show on this menu.\n\n\ncat_image_23\n: is the image URL.\n\n\n\n\nIf you want to show a label beside a menu items like above image, for example the menu item \nSeason\n has category ID = \n28\n:\n\n\n\n\n\"show_item_label_28\": \"yes\"\n: specify a label will show beside this menu item.\n\n\n\"item_label_28\"\n: is the label text.\n\n\n\n\nYou can add more for other items as you want.\n\n\nMain Slideshow / Carousel\n\n\nEdit the slideshow\n\n\nEdit the slideshow in admin page \n \nStorefront Design\n \n \nDesign Options\n:\n\n\n\n\nChange position of text content\n\n\nThe theme supports showing slideshow content like heading, text, button on \nleft\n, \nright\n or \ncenter\n of the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:\n\n\n\n\nChoose position of each slide you want to change.\n\n\nColors Customization\n\n\nTo customize color of the slideshow's elements, look into section \nCarousel\n in the Theme Editor:\n\n\n\n\nHide the slideshow\n\n\nTo hide the slideshow on homepage, uncheck on the checkbox \nShow Carousel\n in section \nCarousel\n of the Theme Editor.\n\n\n3 Banners\n\n\n\n\nTo edit content and images of 3 banners, edit the language file \nen.json\n as showing below:\n\n\n\n\nIf you don't want to show any elements of a banner, for example the button, leave the value \na single space\n character. Example: \n\"button\": \" \"\n.\n\n\nNew / Featured / Popular Products\n\n\nThe theme supports 3 layout type of New Products, Featured Products and Popular Products blocks:\n\n\nGrid\n:\n\n\n\n\nList\n:\n\n\n\n\nCarousel\n:\n\n\n\n\nConfigure a Layout Type of products block \n Number of Products to show up\n\n\nIn the \nTheme Editor\n \n \nHomepage\n, look into \nNew Products\n section (or \nFeatured Products\n, \nMost Popular Products\n):\n\n\n\n\nDisplay type\n: Choose appropriate layout type (\nGrid\n, \nList\n or \nCarousel\n).\n\n\nNumber of Products\n: Choose number of products to show up.\n\n\n\n\n\n\nShow/Hide Quickview button\n\n\nWhen hover on a product item, Quickview button is showed up by default. To disable this feature, uncheck the checkbox \nShow Quickview\n in the \nTheme Editor\n \n \nProducts\n section.\n\n\n\n\nChange colors and image sizes\n\n\nIn the \nTheme Editor\n \n \nProducts\n section, Look into the color options below \nProduct cards\n, \nProduct Sale Badges\n, \nProduct cards (Quick search)\n and \nImage sizes\n's options.\n\n\n\n\n\n\n\n\n\n\nChange the heading text\n\n\nTo change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key \nproducts\n \n \nnew\n or \nfeatured\n or \ntop\n.\n\n\n\n\nChange background of featured products block\n\n\n\n\nMethod 1:\n\n\nTo replace this background with our own image, in \nEdit Theme Files\n you can overwrite image file \nassets/img/categories-featured-bg.jpg\n with your own.\n\n\nMethod 2:\n\n\nTo completely remove it, add the CSS code below to \nassets/scss/_theme-custom.scss\n:\n\n\n.emthemesModez-productsVerticalCategoriesAside-outer--1 {\n  background-image: none;\n}\n\n\n\n\nShow products grid with first product show bigger\n\n\nIn theme style LaParis III, the homepage shows new products like below:\n\n\n\n\nThis can be accomplished by the code in homepage template file \ntemplates/components/emthemes-modez/home/laparis3.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n style=\nlaparis1\n}}\n\n\n\n\nNote the difference is \nstyle=\"laparis1\"\n.\n\n\nShow products carousel fullwidth and having subheading\n\n\nIn theme style LaParis IV, the homepage shows featured products like below:\n\n\n\n\nThis can be accomplished by the code in homepage template file \ntemplates/components/emthemes-modez/home/laparis4.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nfeatured_products\n style=\nlaparis4\n show_subheading=true}}\n\n\n\n\n\n\nstyle=\"laparis4\"\n indicates that products carousel should show full width.\n\n\nshow_subheading=true\n indicates that the products block should have subheading.\n\n\n\n\nSubheading can be edited in the language file \nen.json\n:\n\n\n\n\nRecent Blog Posts\n\n\n\n\nThis block show the most recent blog posts.\n\n\nCustomize heading text and other text\n\n\nTo change the heading text, read more text and date format, edit the language file. Find the key \nblog\n \n \nrecent_posts\n, \nposted_by\n and \nread_more\n, edit its values as you want.\n\n\n\n\nImage Carousel\n\n\n\n\nTo edit image and links in this image carousel section, edit the language file, find key \nemthemesmodez\n \n \nimage_carousel\n\n\n\n\n\n\nimage*\n: is link to the image.\n\n\ntitle*\n: is image text description.\n\n\nurl*\n: is image link. Leave a single space letter in the value if you want to hide any image.\n\n\n\n\nInstagram Photos\n\n\n\n\nGet your own User ID, Client ID, Access Token\n\n\nIn order to display your Instagram photos on your website, you will need to get the \nUser ID\n, \nClient ID\n and \nAccess Token\n from \nInstagram Developer\n portal.\n\n\n1. Create your own Client ID\n\n\nOpen the URL \nhttps://www.instagram.com/developer/\n in your browser.\n\n\nLogin to your Instagram account.\n\n\nClick button \nRegister Your Application\n: \n\n\n\n\nClick button \nRegister a New Client\n: \n\n\n\n\nEnter all required info on the form. \n\n\n\n\nNote that \nValid redirect URIs\n should be exactly \nhttp://127.0.0.1\n as recommended as it will be used in the next step.\n\n\nAfter submitting the form you will get back to the previous page with a new \nClient ID\n is created.\n\n\n\n\nSave this \nClient ID\n value, it will be used to configure the Instagram Photos block.\n\n\n2. Retrieve your Access Token\n\n\nClick button \nManage\n on your the client app created previously. Open \nSecurity\n tab, uncheck \nDisable Implicit OAuth\n checkbox:\n\n\n\n\nClick \nUpdate Client\n button to complete.\n\n\nNow open your web browser with the URL: \n\n\nhttps://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID\nredirect_uri=http://127.0.0.1\nresponse_type=token\n\n\n\n\nwhere \nCLIENT-ID\n is replaced by your \nClient ID\n number created previously.\n\n\nClick \nAuthorize\n button to grant access permission:\n\n\n\n\nInstagram will redirect you to an error page with the URL similiar: \n\n\n\n\nThe text after \naccess_token=\n is the \nAccess Token\n you want to get. Save it for the next step.\n\n\n3. Retrieve your User ID\n\n\nOpen the link below on your web browser:\n\n\nhttps://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN\n\n\n\n\nWhere \nACCESS-TOKEN\n is replaced by your real \nAccess Token\n just received previously.\n\n\n\n\nThe number in \n\"id\": \"...\"\n is your \nUser ID\n.\n\n\nDisplay your Instagram photos\n\n\nTo display our own Instagram photos, edit the language file. Find the key \nemthemesmodez\n \n \ninstagram\n, input your real code:\n\n\n\n\nuser_id\n: Is your Instagram \nUser ID\n.\n\n\nclient_id\n: is your Instagram \nClient ID\n.\n\n\naccess_token\n: is your Instagram \nAccess Token\n.\n\n\ntitle\n: Is the heading text.\n\n\n\n\n\n\nLaParis II - Products By Category\n\n\n\n\nThis section allows you to show products in a certain category. To configure it edit the language file. File keys \nemthemesmodez\n \n \nproducts_by_category\n.\n\n\n\n\n\n\ncategory_id_*\n: is the product category ID that products belong.\n\n\nimage_*\n: is the image URL to show up beside the products.\n\n\nheading_*\n: The heading text on the banner beside.\n\n\ntext_*\n: Description text on the banner beside.\n\n\nbanner_*\n: Button text on the banner beside\n\n\nstyle_*\n: \n\" \"\n or \n\"right\"\n to show banner on left or right.\n\n\n\n\nTheme supports up to 3 products by category blocks.\n\n\nLaParis II - Images Carousel\n\n\n\n\nTo configure this image carousel, edit the lagnuage file, find keys \nemthemesmodez\n \n \nimage_carousel\n:\n\n\n\n\n\n\nimage_*\n: Slide image URL. Leave a single space letter if not use.\n\n\nimage_alt_*\n: image alt text.\n\n\nurl_*\n: link URL.\n\n\nheading_*\n: Heading text. Leave a single space letter to hide.\n\n\ntext_*\n: Description text. Leave a single space letter to hide.\n\n\nbutton_*\n: Button text. Leave a single space to hide.\n\n\n\n\nTheme supports up to 5 images in this section. \n\n\nLaParis II - New / Featured / Bestselling Columns\n\n\n\n\nThis section show new products, featured products and bestselling products in 3 columns.\n\n\nYou can configure number of products to display in \nTheme Editor\n \n \nHomepage\n section:\n\n\n\n\nYou can change the heading text of each column in the language files, find and edit keys \nproducts\n \n \nnew\n, \nproducts\n \n \nfeatured\n, \nproducts\n \n \ntop\n.\n\n\nLaParis III - First Banner Group\n\n\n\n\nTo edit 2 banner, edit the language file \nen.json\n:\n\n\n\n\nGroup \nlaparis2_1\n is coresponding to the block:\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis2_1\n}}\n\n\n\n\nIn the homepage template file \ntemplates/components/emthemes-modez/home/laparis3.html\n.\n\n\nYou can add up to 3 of this banner group.\n\n\nLaParis III - Second Banner Group\n\n\n\n\nTo edit 3 banner, edit the language file \nen.json\n:\n\n\n\n\nGroup \nlaparis3_1\n is coresponding to the block:\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis3_1\n}}\n\n\n\n\nIn the homepage template file \ntemplates/components/emthemes-modez/home/laparis3.html\n.\n\n\nYou can add up to 3 of this banner group.\n\n\nLaParis III - Third Banner Group\n\n\n\n\nTo edit this banner, edit the language file \nen.json\n:\n\n\n\n\nGroup \nlaparis4_1\n is coresponding to the block:\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis4_1\n}}\n\n\n\n\nIn the homepage template file \ntemplates/components/emthemes-modez/home/laparis3.html\n.\n\n\nYou can add up to 3 of this banner group.\n\n\nLaParis IV - Introduction Text\n\n\nIn theme style LaParis IV:\n\n\n\n\nThis text block can be edited in in the language file \nen.json\n as showing below:\n\n\n\n\nYou can find the code output this block in homepage template file \ntemplates/components/emthemes-modez/home/laparis4.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\ntext_1\n}}\n\n\n\n\nYou can add up to 3 instance of this block:\n\n\n{{\n components/emthemes-modez/sections/section section=\ntext_1\n}}\n{{\n components/emthemes-modez/sections/section section=\ntext_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ntext_3\n}}\n\n\n\n\nCoresponding to 3 groups in the language file: \ntext_1\n, \ntext_2\n and \ntext_3\n.\n\n\nLaParis IV - 5 Banner Groups\n\n\n\n\n\n\n\n\n\n\n\n\n5 banner groups can be edited in the language file \nen.json\n as showing below:\n\n\n\n\nlaparis5_1\n to \nlaparis5_5\n corresponding to first banner group to 5th banner group.\n\n\nYou can find the code output these banner groups in the homepage template file \ntemplates/components/emthemes-modez/home/laparis4.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis5_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis5_2\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis5_3\n style=\nalt\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis5_4\n}}\n...\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis5_5\n}}\n\n\n\n\nstyle=\"alt\"\n indicates 3rd banner group has different sttyle (the first banner has text align right).\n\n\nLaParis IV - Video Block\n\n\nVideo block showing on homapge of theme style LaParis IV:\n\n\n\n\nThis block can be edited in in the language file \nen.json\n as showing below:\n\n\n\n\nYou can find the code output this block in homepage template file \ntemplates/components/emthemes-modez/home/laparis4.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nvideo_1\n}}\n\n\n\n\nFooter - Newsletter\n\n\n\n\nChange text\n\n\nTo change text appear on this section you can edit the language file as instruction below:\n\n\nFrom admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\nFrom the left navigation, click to edit the language file (e.i \nen.json\n):\n\n\n\n\nSee the section \nNewsletter\n you can edit as you want:\n\n\n\n\nColors Customization\n\n\nTo customize colors of the header section, look into the options showing below in the \nTheme Editor\n \n \nFooter\n:\n\n\n\n\nFooter - Links\n\n\n\n\nTo edit text and links on the footer, edit the language file, section \nfooter\n \n \nlinks\n:\n\n\n\n\n\n\ncol1_heading\n, \ncol2_heading\n, \ncol3_heading\n: is the heading text of each column.\n\n\ncol*_url*\n, \ncol*_title*\n: is URL and text of each link.\n\n\n\n\nSocial Media Icons\n\n\n\n\nTo show social icons in the footer, open \nTheme Editor\n \n \nSocial Media Icons\n section, set \nBottom Placement\n = \nRight\n. \n\n\nNote: You will need to configure which icons to appear in admin panel \n \nStorefront Design\n \n \nDesign Options\n, input your social links in \nSocial Media\n section.\n\n\nPayment Icons\n\n\n\n\nTo show/hide payment icons, go to Theme \nEditor\n \n \nPayment Icons\n secitons, check or uncheck any icons you want to show or hide.\n\n\nCopyright Links\n\n\n\n\nTo edit links in the copyright section at footer, edit the language file, find \nfooter\n \n \ncopyright_links\n:\n\n\n\n\n\n\nurl*\n is link URL. Leave a \nsingle space\n letter if you want to hide any link.\n\n\ntitle*\n is link title.\n\n\n\n\nCredit Links\n\n\n\n\nTo show/hide the credit links, go to Theme Editor \n \nFooter\n section, tick or untick the checkboxes as showing above.\n\n\nAssign different product layout to a specific product page\n\n\nTheme has 2 product layouts: \ndefault\n and \nFullwith with Lightbox\n.\n\n\nProduct layout fullwidth:\n\n\n\n\nTo assign a product layout, edit your product in the admin panel. In tab \nOrder Details\n, choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nAssign different category layout to a specific category page\n\n\nTheme has 2 category layout: \ndefault\n and \nFullwidth\n.\n\n\nCategory layout fullwidth:\n\n\n\n\nTo assign a category layout, edit your category in the admin panel. Choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nShow custom product labels\n\n\n\n\nTurn on displaying product labels in the \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow custom label using custom field 'card_label'\n and choose \nDisplay Product Sale Badges\n as \nTop Left\n.\n\n\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_label\n and enter label text in the value input box.\n\n\nShow color swatches on product card:\n\n\n\n\nTo display color watches on product card, open \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow color swatches using custom field 'card_color'\n.\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_color\n and enter color hex code in the value input box seperator by commas.\n\n\nMix contents from other theme styles\n\n\nFor example, if you want to use theme \ndefault\n style as the main theme, but also want to display other content blocks from \nLaParis II\n style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.\n\n\nLet open folder \ntemplates\n \n \ncomponents\n \n \nemthemes-modez\n \n \nhome\n in the template files editor:\n\n\n\n\nThere is 2 files in this folder:\n\n\n\n\ndefault.html\n: is used for \ndefault\n style.\n\n\nlaparis2.html\n: is used for \nLaParis II\n style.\n\n\n\n\nLet's take a look at contents of 2 files:\n\n\ndefault.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\ncategories_featured\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nlaparis2.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ncarousel_laparis2_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nspecial_products_columns\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nThe files are showing very clearly how content blocks are displayed. See values in parameter \nsection=\"...\"\n:\n\n\n\n\nbanner_laparis1_1\n: Is the first block content 3 banners in the homepage of default style.\n\n\nnew_products\n: Is a block contains new products.\n\n\ncategories_featured\n: Is a block contains featured products with categories list as appeared on the homepage of default style.\n\n\npopular_products\n: Is a block contains popular (or bestselling) products.\n\n\nblog_recent\n: Is a block contains recent blog posts.\n\n\nbrands_carousel\n: Is a brand images carousel.\n\n\ninstagram_grid\n: Is a block displaying instagram photos.\n\n\nproducts_by_category_1\n \n \nproducts_by_category_2\n: Is a block contains product in a certain category as showing on homepage of LaParis II style.\n\n\ncarousel_laparis2_1\n: Is the image carousel as showing on homepage of LaParis II style.\n\n\nspecial_products_columns\n: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.\n\n\n\n\nSo just copy a line from the other file to the other. Arrange position of these sections as you wish.\n\n\nExample of a mixed \ndefault.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n\n\n\n\nAdd our own CSS (Sass) code\n\n\nTo add your own custom CSS code you can edit the file \nassets/scss/_theme-custom.scss_\n in \nEdit Theme Files\n editor:\n\n\n\n\nNote: \n\n\n\n\nCopy / backup this file for future theme upgrade.\n\n\nAdd custom CSS code required CSS (or Sass) programming skill. It's not recommended for new users.", 
+            "text": "Customization\n\n\nThis page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.\n\n\n\n\nTop Banner\n\n\n\n\nThe top banner can be showed / edited in admin page \n \nMarketing\n \n \nBanners\n. When you add / edit remember to choose \nLocation\n is \nTop of Page\n.\n\n\nColors Customization\n\n\nTo customize colors of this section, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nCustomize\n of the current theme to open the Theme Editor. \n\n\n\n\nLook into the options showing below:\n\n\n\n\nHeader\n\n\nHeader Styles\n\n\nThis theme support 3 different header styles:\n- Logo at left\n- Logo at right\n- Logo at center\n\n\n\n\n\n\n\n\nTo configure, open the \nTheme Editor\n, scroll down to section \nLogo\n, click to expand the logo options. Choose a certain option of \nLogo position\n, then click \nRefresh\n button appear after.\n\n\n\n\nColors Customization\n\n\nTo customize colors of the header section, look into the options showing below in the Theme Editor:\n\n\n\n\nMega Menu\n\n\n\n\nImages or labels appear on the mega menu can be edited in the language file \nen.json\n:\n\n\n\n\nFor example if the current menu \nShop By\n has category ID = \n23\n.\n\n\n\n\n\"show_cat_image_23\": \"yes\"\n: specify an image will show on this menu.\n\n\ncat_image_23\n: is the image URL.\n\n\n\n\nIf you want to show a label beside a menu items like above image, for example the menu item \nSeason\n has category ID = \n28\n:\n\n\n\n\n\"show_item_label_28\": \"yes\"\n: specify a label will show beside this menu item.\n\n\n\"item_label_28\"\n: is the label text.\n\n\n\n\nYou can add more for other items as you want.\n\n\nMain Slideshow / Carousel\n\n\nEdit the slideshow\n\n\nEdit the slideshow in admin page \n \nStorefront Design\n \n \nDesign Options\n:\n\n\n\n\nChange position of text content\n\n\nThe theme supports showing slideshow content like heading, text, button on \nleft\n, \nright\n or \ncenter\n of the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:\n\n\n\n\nChoose position of each slide you want to change.\n\n\nColors Customization\n\n\nTo customize color of the slideshow's elements, look into section \nCarousel\n in the Theme Editor:\n\n\n\n\nHide the slideshow\n\n\nTo hide the slideshow on homepage, uncheck on the checkbox \nShow Carousel\n in section \nCarousel\n of the Theme Editor.\n\n\nWhat's Special Banners\n\n\n\n\nYou can edit heading text, sub heading, images, links, text on images in the language file \nlang/en.json\n in the File Editor, find section \nparallaxbag\n \n \nwhat_special\n:\n\n\n\n\nKeep In Touch (Newsletter)\n\n\n\n\nMake sure you tick on the option \"\nAllow Newsletter Subscription\n\" in admin page \n \nMarketing\n \n \nEmail Marketing\n:\n\n\n\n\nEdit text and description in the language file \nlang/en.json\n. Find key \nnewsletter\n:\n\n\n\n\nSome Features Block\n\n\n\n\nYou can edit background image, text, buttons, links in this block in the language file \nlang/en.json\n, find key \nparallaxbag\n \n \nsome_features\n:\n\n\n\n\nSpecial Products Tabs\n\n\n\n\nYou can configure number of products and product display type in \nTheme Editor\n \n \nHomepage\n:\n\n\n\n\nConfigure colors:\n\n\n\n\nFree Shipping \n Return Block\n\n\n\n\nYou can edit text of this block in the language file \nlang/en.json\n, find key \nparallaxbag\n \n \nfree_shipping_return\n:\n\n\n\n\nPopular Categories\n\n\n\n\nYou can edit title, category images, specify category ID to display category in the language file \nlang/en.json\n. Find key \nparallaxbag\n \n \npopular_categories\n:\n\n\n\n\nYou can find the category ID by editing the category, look at the URL on your web browser, the number is category ID:\n\n\n\n\nNote: this block only works for the root categories.\n\n\nPromotion Video Block\n\n\n\n\nYou can edit heading, sub-heading, background image and video in the language file \nlang/en.json\n. Find key \nparallaxbag\n \n \nvideo\n:\n\n\n\n\n6 Banners Block\n\n\n\n\nYou can edit these banners in the language file \nlang/en.json\n. Find key \nparallaxbag\n \n \nsix_banners\n:\n\n\n\n\nTestimonials Slider\n\n\n\n\nYou can edit testimonials in the language file \nlang/en.json\n. Find key \nparallaxbag\n \n \ntestimonials\n:\n\n\n\n\nImage Carousel\n\n\n\n\nTo edit image and links in this image carousel section, edit the language file, find key \nemthemesmodez\n \n \nimage_carousel\n\n\n\n\n\n\nimage*\n: is link to the image.\n\n\ntitle*\n: is image text description.\n\n\nurl*\n: is image link. Leave a single space letter in the value if you want to hide any image.\n\n\n\n\nFooter - 3 Banners\n\n\n\n\nYou can edit content of 3 banners in the language file \nlang/en.json\n. Find key \nparallaxbag\n \n \nfooter_three_banners\n:\n\n\n\n\nFooter - Customer Services Links\n\n\n\n\nEdit language file \nlang/en.json\n find key \nfooter\n \n \nlinks\n:\n\n\n\n\nFooter - Delivery \n Returns\n\n\n\n\nEdit language file \nlang/en.json\n find key \nfooter\n \n \nlinks\n:\n\n\n\n\nFooter - About Us\n\n\n\n\nEdit language file \nlang/en.json\n find key \nfooter\n \n \nabout\n \n \nabout_text\n:\n\n\n\n\nFooter - Contact Us\n\n\n\n\nIn your admin page \n \nStore Setup\n \n \nStore Profile\n, edit \nStore Address\n and \nPhone\n:\n\n\n\n\nFor email, edit the language file \nlang/en.json\n, find key \nfooter\n \n \nemail\n:\n\n\n\n\nFooter - Connect With Us\n\n\n\n\nIn your admin page \n \nStorefront Design\n \n \nDesign Options\n \n \nSocial Media\n, enter your social links:\n\n\n\n\nPayment Icons\n\n\n\n\nTo show/hide payment icons, go to Theme \nEditor\n \n \nPayment Icons\n secitons, check or uncheck any icons you want to show or hide.\n\n\nCredit Links\n\n\n\n\nTo show/hide the credit links, go to Theme Editor \n \nFooter\n section, tick or untick the checkboxes as showing above.\n\n\nAssign different product layout to a specific product page\n\n\nTheme has 2 product layouts: \ndefault\n and \nFullwith with Lightbox\n.\n\n\nProduct layout fullwidth:\n\n\n\n\nTo assign a product layout, edit your product in the admin panel. In tab \nOrder Details\n, choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nAssign different category layout to a specific category page\n\n\nTheme has 2 category layout: \ndefault\n and \nFullwidth\n.\n\n\nCategory layout fullwidth:\n\n\n\n\nTo assign a category layout, edit your category in the admin panel. Choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nShow custom product labels\n\n\n\n\nTurn on displaying product labels in the \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow custom label using custom field 'card_label'\n and choose \nDisplay Product Sale Badges\n as \nTop Left\n.\n\n\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_label\n and enter label text in the value input box.\n\n\nShow color swatches on product card:\n\n\n\n\nTo display color watches on product card, open \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow color swatches using custom field 'card_color'\n.\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_color\n and enter color hex code in the value input box seperator by commas.\n\n\nMix contents from other theme styles\n\n\nFor example, if you want to use theme \ndefault\n style as the main theme, but also want to display other content blocks from \nLaParis II\n style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.\n\n\nLet open folder \ntemplates\n \n \ncomponents\n \n \nemthemes-modez\n \n \nhome\n in the template files editor:\n\n\n\n\nThere is 2 files in this folder:\n\n\n\n\ndefault.html\n: is used for \ndefault\n style.\n\n\nlaparis2.html\n: is used for \nLaParis II\n style.\n\n\n\n\nLet's take a look at contents of 2 files:\n\n\ndefault.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\ncategories_featured\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nlaparis2.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ncarousel_laparis2_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nspecial_products_columns\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nThe files are showing very clearly how content blocks are displayed. See values in parameter \nsection=\"...\"\n:\n\n\n\n\nbanner_laparis1_1\n: Is the first block content 3 banners in the homepage of default style.\n\n\nnew_products\n: Is a block contains new products.\n\n\ncategories_featured\n: Is a block contains featured products with categories list as appeared on the homepage of default style.\n\n\npopular_products\n: Is a block contains popular (or bestselling) products.\n\n\nblog_recent\n: Is a block contains recent blog posts.\n\n\nbrands_carousel\n: Is a brand images carousel.\n\n\ninstagram_grid\n: Is a block displaying instagram photos.\n\n\nproducts_by_category_1\n \n \nproducts_by_category_2\n: Is a block contains product in a certain category as showing on homepage of LaParis II style.\n\n\ncarousel_laparis2_1\n: Is the image carousel as showing on homepage of LaParis II style.\n\n\nspecial_products_columns\n: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.\n\n\n\n\nSo just copy a line from the other file to the other. Arrange position of these sections as you wish.\n\n\nExample of a mixed \ndefault.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n\n\n\n\nAdd our own CSS (Sass) code\n\n\nTo add your own custom CSS code you can edit the file \nassets/scss/_theme-custom.scss_\n in \nEdit Theme Files\n editor:\n\n\n\n\nNote: \n\n\n\n\nCopy / backup this file for future theme upgrade.\n\n\nAdd custom CSS code required CSS (or Sass) programming skill. It's not recommended for new users.", 
             "title": "Customization"
         }, 
         {
@@ -94,11 +94,6 @@
             "location": "/customization/index.html#header-styles", 
             "text": "This theme support 3 different header styles:\n- Logo at left\n- Logo at right\n- Logo at center     To configure, open the  Theme Editor , scroll down to section  Logo , click to expand the logo options. Choose a certain option of  Logo position , then click  Refresh  button appear after.", 
             "title": "Header Styles"
-        }, 
-        {
-            "location": "/customization/index.html#edit-3-info-text-blocks", 
-            "text": "Show or hide these text blocks in Theme Editor    Header  section as showing below:   Edit content in the language file, from admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:   From the left navigation, click to edit the language file (e.i  en.json ):   Edit the text as figured above.", 
-            "title": "Edit 3 info text blocks"
         }, 
         {
             "location": "/customization/index.html#colors-customization_1", 
@@ -136,69 +131,49 @@
             "title": "Hide the slideshow"
         }, 
         {
-            "location": "/customization/index.html#3-banners", 
-            "text": "To edit content and images of 3 banners, edit the language file  en.json  as showing below:   If you don't want to show any elements of a banner, for example the button, leave the value  a single space  character. Example:  \"button\": \" \" .", 
-            "title": "3 Banners"
+            "location": "/customization/index.html#whats-special-banners", 
+            "text": "You can edit heading text, sub heading, images, links, text on images in the language file  lang/en.json  in the File Editor, find section  parallaxbag     what_special :", 
+            "title": "What's Special Banners"
         }, 
         {
-            "location": "/customization/index.html#new-featured-popular-products", 
-            "text": "The theme supports 3 layout type of New Products, Featured Products and Popular Products blocks:  Grid :   List :   Carousel :", 
-            "title": "New / Featured / Popular Products"
+            "location": "/customization/index.html#keep-in-touch-newsletter", 
+            "text": "Make sure you tick on the option \" Allow Newsletter Subscription \" in admin page    Marketing     Email Marketing :   Edit text and description in the language file  lang/en.json . Find key  newsletter :", 
+            "title": "Keep In Touch (Newsletter)"
         }, 
         {
-            "location": "/customization/index.html#configure-a-layout-type-of-products-block-number-of-products-to-show-up", 
-            "text": "In the  Theme Editor     Homepage , look into  New Products  section (or  Featured Products ,  Most Popular Products ):   Display type : Choose appropriate layout type ( Grid ,  List  or  Carousel ).  Number of Products : Choose number of products to show up.", 
-            "title": "Configure a Layout Type of products block &amp; Number of Products to show up"
+            "location": "/customization/index.html#some-features-block", 
+            "text": "You can edit background image, text, buttons, links in this block in the language file  lang/en.json , find key  parallaxbag     some_features :", 
+            "title": "Some Features Block"
         }, 
         {
-            "location": "/customization/index.html#showhide-quickview-button", 
-            "text": "When hover on a product item, Quickview button is showed up by default. To disable this feature, uncheck the checkbox  Show Quickview  in the  Theme Editor     Products  section.", 
-            "title": "Show/Hide Quickview button"
+            "location": "/customization/index.html#special-products-tabs", 
+            "text": "You can configure number of products and product display type in  Theme Editor     Homepage :   Configure colors:", 
+            "title": "Special Products Tabs"
         }, 
         {
-            "location": "/customization/index.html#change-colors-and-image-sizes", 
-            "text": "In the  Theme Editor     Products  section, Look into the color options below  Product cards ,  Product Sale Badges ,  Product cards (Quick search)  and  Image sizes 's options.", 
-            "title": "Change colors and image sizes"
+            "location": "/customization/index.html#free-shipping-return-block", 
+            "text": "You can edit text of this block in the language file  lang/en.json , find key  parallaxbag     free_shipping_return :", 
+            "title": "Free Shipping &amp; Return Block"
         }, 
         {
-            "location": "/customization/index.html#change-the-heading-text", 
-            "text": "To change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key  products     new  or  featured  or  top .", 
-            "title": "Change the heading text"
+            "location": "/customization/index.html#popular-categories", 
+            "text": "You can edit title, category images, specify category ID to display category in the language file  lang/en.json . Find key  parallaxbag     popular_categories :   You can find the category ID by editing the category, look at the URL on your web browser, the number is category ID:   Note: this block only works for the root categories.", 
+            "title": "Popular Categories"
         }, 
         {
-            "location": "/customization/index.html#change-background-of-featured-products-block", 
-            "text": "", 
-            "title": "Change background of featured products block"
+            "location": "/customization/index.html#promotion-video-block", 
+            "text": "You can edit heading, sub-heading, background image and video in the language file  lang/en.json . Find key  parallaxbag     video :", 
+            "title": "Promotion Video Block"
         }, 
         {
-            "location": "/customization/index.html#method-1", 
-            "text": "To replace this background with our own image, in  Edit Theme Files  you can overwrite image file  assets/img/categories-featured-bg.jpg  with your own.", 
-            "title": "Method 1:"
+            "location": "/customization/index.html#6-banners-block", 
+            "text": "You can edit these banners in the language file  lang/en.json . Find key  parallaxbag     six_banners :", 
+            "title": "6 Banners Block"
         }, 
         {
-            "location": "/customization/index.html#method-2", 
-            "text": "To completely remove it, add the CSS code below to  assets/scss/_theme-custom.scss :  .emthemesModez-productsVerticalCategoriesAside-outer--1 {\n  background-image: none;\n}", 
-            "title": "Method 2:"
-        }, 
-        {
-            "location": "/customization/index.html#show-products-grid-with-first-product-show-bigger", 
-            "text": "In theme style LaParis III, the homepage shows new products like below:   This can be accomplished by the code in homepage template file  templates/components/emthemes-modez/home/laparis3.html :  {{  components/emthemes-modez/sections/section section= new_products  style= laparis1 }}  Note the difference is  style=\"laparis1\" .", 
-            "title": "Show products grid with first product show bigger"
-        }, 
-        {
-            "location": "/customization/index.html#show-products-carousel-fullwidth-and-having-subheading", 
-            "text": "In theme style LaParis IV, the homepage shows featured products like below:   This can be accomplished by the code in homepage template file  templates/components/emthemes-modez/home/laparis4.html :  {{  components/emthemes-modez/sections/section section= featured_products  style= laparis4  show_subheading=true}}   style=\"laparis4\"  indicates that products carousel should show full width.  show_subheading=true  indicates that the products block should have subheading.   Subheading can be edited in the language file  en.json :", 
-            "title": "Show products carousel fullwidth and having subheading"
-        }, 
-        {
-            "location": "/customization/index.html#recent-blog-posts", 
-            "text": "This block show the most recent blog posts.", 
-            "title": "Recent Blog Posts"
-        }, 
-        {
-            "location": "/customization/index.html#customize-heading-text-and-other-text", 
-            "text": "To change the heading text, read more text and date format, edit the language file. Find the key  blog     recent_posts ,  posted_by  and  read_more , edit its values as you want.", 
-            "title": "Customize heading text and other text"
+            "location": "/customization/index.html#testimonials-slider", 
+            "text": "You can edit testimonials in the language file  lang/en.json . Find key  parallaxbag     testimonials :", 
+            "title": "Testimonials Slider"
         }, 
         {
             "location": "/customization/index.html#image-carousel", 
@@ -206,114 +181,39 @@
             "title": "Image Carousel"
         }, 
         {
-            "location": "/customization/index.html#instagram-photos", 
-            "text": "", 
-            "title": "Instagram Photos"
+            "location": "/customization/index.html#footer-3-banners", 
+            "text": "You can edit content of 3 banners in the language file  lang/en.json . Find key  parallaxbag     footer_three_banners :", 
+            "title": "Footer - 3 Banners"
         }, 
         {
-            "location": "/customization/index.html#get-your-own-user-id-client-id-access-token", 
-            "text": "In order to display your Instagram photos on your website, you will need to get the  User ID ,  Client ID  and  Access Token  from  Instagram Developer  portal.", 
-            "title": "Get your own User ID, Client ID, Access Token"
+            "location": "/customization/index.html#footer-customer-services-links", 
+            "text": "Edit language file  lang/en.json  find key  footer     links :", 
+            "title": "Footer - Customer Services Links"
         }, 
         {
-            "location": "/customization/index.html#1-create-your-own-client-id", 
-            "text": "Open the URL  https://www.instagram.com/developer/  in your browser.  Login to your Instagram account.  Click button  Register Your Application :    Click button  Register a New Client :    Enter all required info on the form.    Note that  Valid redirect URIs  should be exactly  http://127.0.0.1  as recommended as it will be used in the next step.  After submitting the form you will get back to the previous page with a new  Client ID  is created.   Save this  Client ID  value, it will be used to configure the Instagram Photos block.", 
-            "title": "1. Create your own Client ID"
+            "location": "/customization/index.html#footer-delivery-returns", 
+            "text": "Edit language file  lang/en.json  find key  footer     links :", 
+            "title": "Footer - Delivery &amp; Returns"
         }, 
         {
-            "location": "/customization/index.html#2-retrieve-your-access-token", 
-            "text": "Click button  Manage  on your the client app created previously. Open  Security  tab, uncheck  Disable Implicit OAuth  checkbox:   Click  Update Client  button to complete.  Now open your web browser with the URL:   https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID redirect_uri=http://127.0.0.1 response_type=token  where  CLIENT-ID  is replaced by your  Client ID  number created previously.  Click  Authorize  button to grant access permission:   Instagram will redirect you to an error page with the URL similiar:    The text after  access_token=  is the  Access Token  you want to get. Save it for the next step.", 
-            "title": "2. Retrieve your Access Token"
+            "location": "/customization/index.html#footer-about-us", 
+            "text": "Edit language file  lang/en.json  find key  footer     about     about_text :", 
+            "title": "Footer - About Us"
         }, 
         {
-            "location": "/customization/index.html#3-retrieve-your-user-id", 
-            "text": "Open the link below on your web browser:  https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN  Where  ACCESS-TOKEN  is replaced by your real  Access Token  just received previously.   The number in  \"id\": \"...\"  is your  User ID .", 
-            "title": "3. Retrieve your User ID"
+            "location": "/customization/index.html#footer-contact-us", 
+            "text": "In your admin page    Store Setup     Store Profile , edit  Store Address  and  Phone :   For email, edit the language file  lang/en.json , find key  footer     email :", 
+            "title": "Footer - Contact Us"
         }, 
         {
-            "location": "/customization/index.html#display-your-instagram-photos", 
-            "text": "To display our own Instagram photos, edit the language file. Find the key  emthemesmodez     instagram , input your real code:   user_id : Is your Instagram  User ID .  client_id : is your Instagram  Client ID .  access_token : is your Instagram  Access Token .  title : Is the heading text.", 
-            "title": "Display your Instagram photos"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-ii-products-by-category", 
-            "text": "This section allows you to show products in a certain category. To configure it edit the language file. File keys  emthemesmodez     products_by_category .    category_id_* : is the product category ID that products belong.  image_* : is the image URL to show up beside the products.  heading_* : The heading text on the banner beside.  text_* : Description text on the banner beside.  banner_* : Button text on the banner beside  style_* :  \" \"  or  \"right\"  to show banner on left or right.   Theme supports up to 3 products by category blocks.", 
-            "title": "LaParis II - Products By Category"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-ii-images-carousel", 
-            "text": "To configure this image carousel, edit the lagnuage file, find keys  emthemesmodez     image_carousel :    image_* : Slide image URL. Leave a single space letter if not use.  image_alt_* : image alt text.  url_* : link URL.  heading_* : Heading text. Leave a single space letter to hide.  text_* : Description text. Leave a single space letter to hide.  button_* : Button text. Leave a single space to hide.   Theme supports up to 5 images in this section.", 
-            "title": "LaParis II - Images Carousel"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-ii-new-featured-bestselling-columns", 
-            "text": "This section show new products, featured products and bestselling products in 3 columns.  You can configure number of products to display in  Theme Editor     Homepage  section:   You can change the heading text of each column in the language files, find and edit keys  products     new ,  products     featured ,  products     top .", 
-            "title": "LaParis II - New / Featured / Bestselling Columns"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iii-first-banner-group", 
-            "text": "To edit 2 banner, edit the language file  en.json :   Group  laparis2_1  is coresponding to the block:  {{  components/emthemes-modez/sections/section section= banner_laparis2_1 }}  In the homepage template file  templates/components/emthemes-modez/home/laparis3.html .  You can add up to 3 of this banner group.", 
-            "title": "LaParis III - First Banner Group"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iii-second-banner-group", 
-            "text": "To edit 3 banner, edit the language file  en.json :   Group  laparis3_1  is coresponding to the block:  {{  components/emthemes-modez/sections/section section= banner_laparis3_1 }}  In the homepage template file  templates/components/emthemes-modez/home/laparis3.html .  You can add up to 3 of this banner group.", 
-            "title": "LaParis III - Second Banner Group"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iii-third-banner-group", 
-            "text": "To edit this banner, edit the language file  en.json :   Group  laparis4_1  is coresponding to the block:  {{  components/emthemes-modez/sections/section section= banner_laparis4_1 }}  In the homepage template file  templates/components/emthemes-modez/home/laparis3.html .  You can add up to 3 of this banner group.", 
-            "title": "LaParis III - Third Banner Group"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iv-introduction-text", 
-            "text": "In theme style LaParis IV:   This text block can be edited in in the language file  en.json  as showing below:   You can find the code output this block in homepage template file  templates/components/emthemes-modez/home/laparis4.html :  {{  components/emthemes-modez/sections/section section= text_1 }}  You can add up to 3 instance of this block:  {{  components/emthemes-modez/sections/section section= text_1 }}\n{{  components/emthemes-modez/sections/section section= text_2 }}\n{{  components/emthemes-modez/sections/section section= text_3 }}  Coresponding to 3 groups in the language file:  text_1 ,  text_2  and  text_3 .", 
-            "title": "LaParis IV - Introduction Text"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iv-5-banner-groups", 
-            "text": "5 banner groups can be edited in the language file  en.json  as showing below:   laparis5_1  to  laparis5_5  corresponding to first banner group to 5th banner group.  You can find the code output these banner groups in the homepage template file  templates/components/emthemes-modez/home/laparis4.html :  {{  components/emthemes-modez/sections/section section= banner_laparis5_1 }}\n{{  components/emthemes-modez/sections/section section= banner_laparis5_2 }}\n{{  components/emthemes-modez/sections/section section= banner_laparis5_3  style= alt }}\n{{  components/emthemes-modez/sections/section section= banner_laparis5_4 }}\n...\n{{  components/emthemes-modez/sections/section section= banner_laparis5_5 }}  style=\"alt\"  indicates 3rd banner group has different sttyle (the first banner has text align right).", 
-            "title": "LaParis IV - 5 Banner Groups"
-        }, 
-        {
-            "location": "/customization/index.html#laparis-iv-video-block", 
-            "text": "Video block showing on homapge of theme style LaParis IV:   This block can be edited in in the language file  en.json  as showing below:   You can find the code output this block in homepage template file  templates/components/emthemes-modez/home/laparis4.html :  {{  components/emthemes-modez/sections/section section= video_1 }}", 
-            "title": "LaParis IV - Video Block"
-        }, 
-        {
-            "location": "/customization/index.html#footer-newsletter", 
-            "text": "", 
-            "title": "Footer - Newsletter"
-        }, 
-        {
-            "location": "/customization/index.html#change-text", 
-            "text": "To change text appear on this section you can edit the language file as instruction below:  From admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:   From the left navigation, click to edit the language file (e.i  en.json ):   See the section  Newsletter  you can edit as you want:", 
-            "title": "Change text"
-        }, 
-        {
-            "location": "/customization/index.html#colors-customization_3", 
-            "text": "To customize colors of the header section, look into the options showing below in the  Theme Editor     Footer :", 
-            "title": "Colors Customization"
-        }, 
-        {
-            "location": "/customization/index.html#footer-links", 
-            "text": "To edit text and links on the footer, edit the language file, section  footer     links :    col1_heading ,  col2_heading ,  col3_heading : is the heading text of each column.  col*_url* ,  col*_title* : is URL and text of each link.", 
-            "title": "Footer - Links"
-        }, 
-        {
-            "location": "/customization/index.html#social-media-icons", 
-            "text": "To show social icons in the footer, open  Theme Editor     Social Media Icons  section, set  Bottom Placement  =  Right .   Note: You will need to configure which icons to appear in admin panel    Storefront Design     Design Options , input your social links in  Social Media  section.", 
-            "title": "Social Media Icons"
+            "location": "/customization/index.html#footer-connect-with-us", 
+            "text": "In your admin page    Storefront Design     Design Options     Social Media , enter your social links:", 
+            "title": "Footer - Connect With Us"
         }, 
         {
             "location": "/customization/index.html#payment-icons", 
             "text": "To show/hide payment icons, go to Theme  Editor     Payment Icons  secitons, check or uncheck any icons you want to show or hide.", 
             "title": "Payment Icons"
-        }, 
-        {
-            "location": "/customization/index.html#copyright-links", 
-            "text": "To edit links in the copyright section at footer, edit the language file, find  footer     copyright_links :    url*  is link URL. Leave a  single space  letter if you want to hide any link.  title*  is link title.", 
-            "title": "Copyright Links"
         }, 
         {
             "location": "/customization/index.html#credit-links", 
@@ -442,7 +342,7 @@
         }, 
         {
             "location": "/faqs/index.html", 
-            "text": "FAQs\n\n\nHow to make slideshow stretched full width?\n\n\n \n\n\nOpen \nTheme Editor\n \n \nCarousel\n section \n check to the option \nAllows image to stretch on large screens\n:\n\n\n\n\nHow to remove the leaves background image on the first banner of 'Default' style?\n\n\n\n\nTo remove this leaves image, open \nEdit Theme Files\n, open file \nassets/scss/_theme-custom.scss_\n. Add the code below to the end of file:\n\n\n.emthemesModez-banner--laparis1:first-child .emthemesModez-banner-figcaption {\n  background-image: none;\n}\n\n\n\n\nSave and refresh your homepage to see changes.", 
+            "text": "FAQs\n\n\nHow to make slideshow stretched full width?\n\n\n \n\n\nOpen \nTheme Editor\n \n \nCarousel\n section \n check to the option \nAllows image to stretch on large screens\n:", 
             "title": "FAQs"
         }, 
         {
@@ -454,11 +354,6 @@
             "location": "/faqs/index.html#how-to-make-slideshow-stretched-full-width", 
             "text": "Open  Theme Editor     Carousel  section   check to the option  Allows image to stretch on large screens :", 
             "title": "How to make slideshow stretched full width?"
-        }, 
-        {
-            "location": "/faqs/index.html#how-to-remove-the-leaves-background-image-on-the-first-banner-of-default-style", 
-            "text": "To remove this leaves image, open  Edit Theme Files , open file  assets/scss/_theme-custom.scss_ . Add the code below to the end of file:  .emthemesModez-banner--laparis1:first-child .emthemesModez-banner-figcaption {\n  background-image: none;\n}  Save and refresh your homepage to see changes.", 
-            "title": "How to remove the leaves background image on the first banner of 'Default' style?"
         }, 
         {
             "location": "/support/index.html", 
