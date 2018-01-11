@@ -137,6 +137,8 @@
         
             <li><a class="toctree-l3" href="#show-size-guide-color-guide-on-product-attributes">Show Size guide / Color guide on product attributes</a></li>
         
+            <li><a class="toctree-l3" href="#show-fullscreen-popup-banner">Show Fullscreen popup banner</a></li>
+        
             <li><a class="toctree-l3" href="#mix-contents-from-other-theme-styles">Mix contents from other theme styles</a></li>
         
             <li><a class="toctree-l3" href="#add-our-own-css-sass-code">Add our own CSS (Sass) code</a></li>
@@ -307,6 +309,14 @@
 <p><img alt="What's special banners" src="../img/home1-what-special.jpg" /></p>
 <p>You can edit heading text, sub heading, images, links, text on images in the language file <code>lang/en.json</code> in the File Editor, find section <code>parallaxbag</code> &gt; <code>what_special</code>:</p>
 <p><img alt="Edit language file for what special banners" src="../img/edit-language-what-special.png" /></p>
+<p>To remove the brush image, you can add this custom code in <strong>Storefront</strong> &gt; <strong>Footer Script</strong>:</p>
+<pre><code class="html">&lt;style&gt;
+.parallabag-whatSpecialSection {
+    background: none;
+}
+&lt;/style&gt;
+</code></pre>
+
 <h2 id="keep-in-touch-newsletter">Keep In Touch (Newsletter)<a class="headerlink" href="#keep-in-touch-newsletter" title="Permanent link">&para;</a></h2>
 <p><img alt="Keep in touch section" src="../img/home1-keep-in-touch.png" /></p>
 <p>Make sure you tick on the option "<strong>Allow Newsletter Subscription</strong>" in admin page &gt; <strong>Marketing</strong> &gt; <strong>Email Marketing</strong>:</p>
@@ -327,6 +337,16 @@
 <p><img alt="Free shipping and return block" src="../img/home1-free-shipping-return.png" /></p>
 <p>You can edit text of this block in the language file <code>lang/en.json</code>, find key <code>parallaxbag</code> &gt; <code>free_shipping_return</code>:</p>
 <p><img alt="Edit language for free shipping return" src="../img/edit-language-free-shipping-return.png" /></p>
+<p>To remove the yellow background image, you can add this custom code in Storefront &gt; Footer Script:</p>
+<pre><code class="html">&lt;style&gt;
+.emthemesModez-section--parallaxbag-freeShippingReturn {
+    background-image: none;
+}
+&lt;/style&gt;
+</code></pre>
+
+<p>Or if you want to replace your your own image, upload your image in Image Manager and copy its URL.</p>
+<p>Edit the background code to: <code>background-image: url('/path/to/your/image');</code></p>
 <h2 id="popular-categories">Popular Categories<a class="headerlink" href="#popular-categories" title="Permanent link">&para;</a></h2>
 <p><img alt="Popular categories block" src="../img/home1-popular-categories.jpg" /></p>
 <p>You can edit title, category images, specify category ID to display category in the language file <code>lang/en.json</code>. Find key <code>parallaxbag</code> &gt; <code>popular_categories</code>:</p>
@@ -420,6 +440,30 @@
 <p><img alt="add custom fields for size guide" src="../img/custom-fields-for-size-guide.png" /></p>
 <p>Create a web page for guide:</p>
 <p><img alt="size guide web page" src="../img/size-guide-web-page.png" /></p>
+<h2 id="show-fullscreen-popup-banner">Show Fullscreen popup banner<a class="headerlink" href="#show-fullscreen-popup-banner" title="Permanent link">&para;</a></h2>
+<p><img alt="Fullscreen popup banner" src="../img/home1-fullscreen-banner.jpg" /></p>
+<p>To show this fullscreen popup banner on homepage, Go to Marketing &gt; Banners &gt; Create a banner.</p>
+<p>In Banner Content, click on button HTML button (Edit HTML source) and input content below:</p>
+<pre><code class="html">&lt;div id=&quot;emthemesModezBannersBlockFullscreenBanner&quot; class=&quot;emthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss&quot; data-emthemesmodez-fullscreen-modal=&quot;&quot; data-emthemesmodez-fullscreen-modal-delay=&quot;5000&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner-figure&quot;&gt;&lt;a href=&quot;https://store-fcn1lgnyqp.mybigcommerce.com/shoes/&quot;&gt;&lt;img class=&quot;emthemesModez-banner-image&quot; title=&quot;Fullscreen Banner&quot; src=&quot;https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg&quot; alt=&quot;Fullscreen Banner&quot; /&gt;&lt;/a&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption-body&quot;&gt;
+&lt;h4 class=&quot;emthemesModez-banner-figcaption-title&quot;&gt;Bag Store&lt;/h4&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption-text&quot;&gt;UP TO &lt;span class=&quot;alt&quot; style=&quot;color: red;&quot;&gt;50%&lt;/span&gt; OFF&lt;/div&gt;
+&lt;a class=&quot;button button--primary emthemesModez-banner-figcaption-button&quot; href=&quot;https://store-fcn1lgnyqp.mybigcommerce.com/shoes/&quot;&gt;Shop Now&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><img alt="Edit fullscreen popup banner" src="../img/edit-fullscreen-popup-banner.jpg" /></p>
+<ul>
+<li>Choose <strong>Show on Page</strong> = <code>Home Page</code>.</li>
+<li>Choose <strong>Location</strong> = <code>Bottom of Page</code>.</li>
+<li>Tick on <strong>Visible</strong> = <code>Yes</code>.</li>
+</ul>
 <h2 id="mix-contents-from-other-theme-styles">Mix contents from other theme styles<a class="headerlink" href="#mix-contents-from-other-theme-styles" title="Permanent link">&para;</a></h2>
 <p>For example, if you want to use theme <strong>default</strong> style as the main theme, but also want to display other content blocks from <strong>LaParis II</strong> style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.</p>
 <p>Let open folder <code>templates</code> &gt; <code>components</code> &gt; <code>emthemes-modez</code> &gt; <code>home</code> in the template files editor:</p>
