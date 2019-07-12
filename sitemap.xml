@@ -1,60 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/index.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//installation/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/installation.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//quickstart/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/quickstart.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//customization/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/customization.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//settings/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/faqs.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//faqs/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
+     <loc>http://bc-parallaxbag-docs.papathemes.com/support.html</loc>
+     <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>http://bc-parallaxbag-docs.papathemes.com//support/index.html</loc>
-     <lastmod>2018-01-18</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
 </urlset>
