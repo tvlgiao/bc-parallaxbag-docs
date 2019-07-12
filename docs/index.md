@@ -1,6 +1,6 @@
 # User Guide - BigCommerce Theme ParallaxBag
 
-Theme Version: 1.0.0 (2017-07-07)
+Theme Version: 1.0.0
 
 Theme designed and developed by [papathemes](https://papathemes.com). Contact for support via email <tvlgiao@gmail.com>.
 
