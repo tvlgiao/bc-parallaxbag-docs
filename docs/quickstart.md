@@ -16,8 +16,6 @@ To access the Theme Editor, go to your admin page > __Storefront Design__ > __My
 
 ![Click customize theme](img/click-customize-theme.png)
 
-See the complete guide of Theme Editor in chapter [Theme Settings](settings.md).
-
 
 
 
